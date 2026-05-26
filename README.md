@@ -1,21 +1,75 @@
+[update-readmes]   Mode: rewrite — migrating to template structure...
 # hOtSwap
-This is mostly a place for me to dump my thoughts on a project idea: Automating the switch between OSs (specifically Windows to Linux).
 
-### The Problem
-Windows 10 is dying. Windows 11 has annoying hardware requirements. A lot of people want to switch to Linux but they're scared of losing their photos or messing up their partitions.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/hOtSwap)
 
-### The Idea
-Build a tool that does the "scary stuff" for you.
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-* It shouldn't need a USB stick if possible.
-* It needs to "shim" the transition—basically a middleman that lives in RAM, wipes the old OS, and moves your files into the new one.
-* It’s like a brain transplant for your PC.
+## Architecture
 
-### Why I'm posting this
-I'm a bachelor's student and I don't have all the answers yet. I know I'll need to figure out:
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-1. **Bootloaders:** How to not brick the BIOS.
-2. **Permissions:** Mapping Windows users to Linux users.
-3. **Networking:** Probably needs "host" mode access to handle data transfers without getting blocked by the OS firewall.
+## Install
 
-If you're into low-level systems stuff, feel free to open an issue or message me.
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/hOtSwap.git
+cd hOtSwap
+```
+
+## Usage
+
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/hOtSwap`](https://github.com/Interested-Deving-1896/hOtSwap) and mirrored through:
+
+```
+Interested-Deving-1896/hOtSwap  ──►  OpenOS-Project-OSP/hOtSwap  ──►  OpenOS-Project-Ecosystem-OOC/hOtSwap
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
